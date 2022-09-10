@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+      <meta charset="utf-8">
+      <title>Trading Web Application</title>
+      <link rel = "stylesheet" type = "text/css" href= "css/stylesheet.css">
+    </head>
+    <body>
+      <header id = "main-header">
+        <div calss = "container">
+            <ul>
+            <li> <a class = "logo" href = "index.html" > <img src="Logo.png" alt="Website logo"> </a> </li>
+              <li> <a class = "userlink" href = "index.html">Login </a> </li>
+            <li> <a class = "userlink" href = "index.html">SignUp </a> </li>
+            <li> <a class = "userlink" href = "newtrade.html"> Start Trading </a> </li>
+            </ul>
+          </div>
+          <nav id = "navbar">
+              <div calss = "container">
+                <ul>
+                  <li> <a href = "trades.html">Trades</a></li>
+                </ul>
+            </div>
+          </nav>
+          <section id = "title">
+                 <div calss = "container">
+                   <h1>Disney & Marvel Trade site</h1>
+                   </div>
+          </section>
+        </header>
+
+      <div calss = "container">
+        <form class= "tradeform">
+          <h2> Merchandise Trading Form </h2>
+          <div class = "trade-forms">
+                <label for= "category"> Category </label>
+                <input type = "text" id= "category" name = "category" placeholder= "Disney or Marvel"> <br><br>
+          </div>
+          <div class = "trade-forms">
+                <label for= "Product"> Product </label>
+                <input type = "text" id= "Product" name = "Product" placeholder= "Product Name"> <br><br>
+          </div>
+          <div class = "trade-forms">
+                <label for= "Owner"> Owner </label>
+                <input type = "text" id= "Owner" name = "Owner" placeholder= "Full Name"> <br><br>
+           </div>
+           <div class = "trade-forms">
+                <label for= "Description"> Description </label>
+                <textarea type = "text" id= "Description" name = "Description" placeholder= "Details"> </textarea> <br><br>
+           </div>
+                <input class= "button" type="button" onclick="location.href='trades.html'" value="Create Trade">
+        </form>
+      </div>
+
+     <footer id = "main-footer">
+             <ul>
+               <li> <a> &copy D&M Inc </a> </li>
+               <li> <a href = "index.html"> About </a> </li>
+               <li> <a href = "index.html"> Contact </a> </li>
+             </ul>
+           </footer>
+   </body>
+</html>
